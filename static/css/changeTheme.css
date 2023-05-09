@@ -1,0 +1,19 @@
+.changeThemeContainer {
+    position: relative;
+    user-select: none;
+    }
+    
+    .changeTheme {
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    transition: font-size 0.3s; /* Added transition for smooth hover effect */
+    }
+    
+    @media screen and (min-width: 968px) {
+    .changeTheme:hover {
+    font-size: 1.5rem;
+    }
+    }
